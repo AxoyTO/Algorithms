@@ -1,4 +1,4 @@
-To talk about the complexity of the algorithm, we must first define two other concepts: _size of the input_ and _metrics of measuring the cost of the algorithm_.
+To talk about the complexity of the algorithm, we must first define two other concepts: ***size of the input*** and ***metrics of measuring the cost of the algorithm***
 
 _Let:_
 - _A_ — the algorithm
