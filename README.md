@@ -20,4 +20,4 @@ To be implemented:
 
 Contributions
 --------------
-Whether if it is a code(in any programming language), an informational paragraph or just a simple term for the dictionary, every contribution is always welcome! Our task is to learn and to teach, so if you want to contribute, just fork the repository, make your change in the fork and open a pull request so that I can accept and merge it if it's eligible for it. Also, do not hesitate to correct mistakes if you meet them.
+Whether if it is a code(in any programming language), an informational paragraph or just a simple term or definition for the dictionary, every contribution is always welcome! Our task is to learn and to teach, so if you want to contribute, just fork the repository, make your change in the fork and open a pull request so that I can accept and merge it if it's eligible for it. Also, do not hesitate to correct mistakes if you meet them.
