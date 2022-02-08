@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 > An algorithm is basically an approach, a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.
 
 So why do we need so many algorithms to solve a specific problem or a calculation? Because they mostly satisfy different use cases with different time complexities. Here are some examples for sorting algorithms:
@@ -46,4 +45,3 @@ To be implemented:
 Contributions
 --------------
 Whether if it is a code(in any programming language), an informational paragraph or just a simple term or definition for the dictionary, every contribution is always welcome! Our task is to learn and to teach, so if you want to contribute, just fork the repository, make your change in the fork and open a pull request so that I can accept and merge it if it's eligible for it. Also, do not hesitate to correct mistakes if you meet them.
->>>>>>> 59bda5c6d71dec969b96b494ff1da46a521e8f38
