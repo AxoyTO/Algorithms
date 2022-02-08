@@ -9,8 +9,8 @@ _Let:_
 - _||x||_ — size of input values (>=0)
 
 
-**<img src="https://render.githubusercontent.com/render/math?math=C^{T}_{A}(x)">** defines the ***_time costs_(amount of operations required)*** of applying the algorithm _A_ with input _x_,
-**<img src="https://render.githubusercontent.com/render/math?math=C^{S}_{A}(x)">** defines the extra(without input) ***_memory costs_(space required for the operations)*** of applying algorithm _A_ with input _x_. 
+<img src="https://render.githubusercontent.com/render/math?math=C^{T}_{A}(x)"> defines the ***_time costs_(amount of operations required)*** of applying the algorithm _A_ with input _x_,
+<img src="https://render.githubusercontent.com/render/math?math=C^{S}_{A}(x)"> defines the extra(without input) ***_memory costs_(space required for the operations)*** of applying algorithm _A_ with input _x_. 
 
 Now let's consider some simple algorithms as examples:
 ##### 1. Matrix Multiplication: 
@@ -24,6 +24,6 @@ Definition:
 ----------------
 Let the input size <img src="https://render.githubusercontent.com/render/math?math=||x||">, <img src="https://render.githubusercontent.com/render/math?math=C^{T}_{A}(x)"> <img src="https://render.githubusercontent.com/render/math?math=C^{S}_{A}(x)"> are all defined as non-negative integer functions.
 
-<img src="https://render.githubusercontent.com/render/math?math=\Longrightarrow T_{A}(n) = \max\limits_{||x|| = n} C_{A}^T(x)"> is the ***time complexity*** _algorithm A_,
-<img src="https://render.githubusercontent.com/render/math?math=\Longrightarrow S_{A}(n) = \max\limits_{||x|| = n} C_{A}^S(x)"> is the ***space complexity*** of _algorithm A_.
+- <img src="https://render.githubusercontent.com/render/math?math=T_{A}(n) = \max\limits_{||x|| = n} C_{A}^T(x)"> is the ***time complexity*** _algorithm A_,
+- <img src="https://render.githubusercontent.com/render/math?math=S_{A}(n) = \max\limits_{||x|| = n} C_{A}^S(x)"> is the ***space complexity*** of _algorithm A_.
 
