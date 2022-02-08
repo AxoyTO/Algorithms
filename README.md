@@ -2,7 +2,7 @@
 
 So why do we need so many algorithms to solve a specific problem or a calculation? Because they mostly satisfy different use cases with different time complexities. Here are some examples for sorting algorithms:
 - **Merge Sort** is useful for sorting linked lists.
-- **Polyphase** merge sort is useful if the sort set can't fit into RAM.
+- **Polyphase merge sort** is useful if the sort set can't fit into RAM.
 - **Heapsort** is very good for sorting arrays and is used by many relational database engines for in-memory sorting, or for the memory part of the polyphase merge sort. It uses little extra RAM and is very predictable, which is the sort of behavior you want in a DB engine.
 - **Quicksort** has excellent _average case_ behavior and _poor worst_ case behavior. Therefore it is the default sorting algorithm for most sorting library implementations. It's bad worst case behavior is why it isn't used for DB engines.
 - **Insertion Sort** is good if you have a set that is almost sorted; it's good if you have a sorted list that has a couple items added to it occasionally but then needs to be resorted.
