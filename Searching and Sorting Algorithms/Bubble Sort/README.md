@@ -10,7 +10,7 @@ Bubble sort's main idea is to always compare two adjacent elements until they ar
 
 **4.** Repeat the steps 1, 2 and 3 until the array is fully sorted.
 
-### **Pseudecode**
+### **Pseudocode**
 ---
 ```
 bubbleSort(array)
