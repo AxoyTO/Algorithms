@@ -14,7 +14,7 @@ A similar approach is used by insertion sort
 
 
 
-### Pseudocode:**
+### **Pseudocode:**
 ---
 ```
 insertionSort(array)
@@ -27,29 +27,39 @@ insertionSort(array)
     break loop and insert X here
 end insertionSort
 ```
-### Insertion Sort Complexity
+### **Insertion Sort Complexity**
 ---
-| **Time Complexity**  |                                                                                                           |
-| -------------------- | :-------------------------------------------------------------------------------------------------------: |
-| Best                 |  <img src="https://render.githubusercontent.com/render/math?math=\O(\n)" style="background-color:white">  |
-| Worst                | <img src="https://render.githubusercontent.com/render/math?math=\O(\n^2)" style="background-color:white"> |
-| Average              | <img src="https://render.githubusercontent.com/render/math?math=\O(\n^2)" style="background-color:white"> |
-| **Space Complexity** |  <img src="https://render.githubusercontent.com/render/math?math=\O(1)" style="background-color:white">   |
-| **Stability**        |                                                    Yes                                                    |
+| **Time Complexity**  |        |
+| -------------------- | ------ |
+| Best                 | O(n)   |
+| Worst                | O(n^2) |
+| Average              | O(n^2) |
+| **Space Complexity** | O(1)   |
+| **Stability**        | Yes    |
 
-### Time Complexities
+### **Time Complexities**
 ---
-##### Worst Case Complexity: <img src="https://render.githubusercontent.com/render/math?math=\O(\n^2)" style="background-color:white">
+**Worst Case Complexity: O(n^2)** 
+
 Suppose, an array is in ascending order, and you want to sort it in descending order. In this case, worst case complexity occurs.
 
-Each element has to be compared with each of the other elements so, for every n-th element, <img src="https://render.githubusercontent.com/render/math?math=n-1" style="background-color:white"> number of comparisons are made.
+Each element has to be compared with each of the other elements so, for every n-th element, **n-1** number of comparisons are made.
 
-Thus, the total number of comparisons = <img src="https://render.githubusercontent.com/render/math?math=n*(n-1)\hspace{2mm}~\hspace{2mm}n^2" style="background-color:white">
-##### Best Case Complexity: <img src="https://render.githubusercontent.com/render/math?math=\O(\n)" style="background-color:white">
+Thus, the total number of comparisons = **n * (n-1) ~ n^2**
+
+**Best Case Complexity: O(n)**
+
 When the array is already sorted, the outer loop runs for n number of times whereas the inner loop does not run at all. So, there are only n number of comparisons. Thus, complexity is linear.
 
-##### Average Case Complexity: <img src="https://render.githubusercontent.com/render/math?math=\O(\n^2)" style="background-color:white">
-It occurs when the elements of an array are in jumbled order (neither ascending nor descending).
-##### Space Complexity
+**Average Case Complexity: O(n^2)**
 
-Space complexity is <img src="https://render.githubusercontent.com/render/math?math=\O(1)" style="background-color:white"> because an extra variable key is used.
+It occurs when the elements of an array are in jumbled order (neither ascending nor descending).
+### **Space Complexity**
+---
+Space complexity is **O(1)** because an extra variable key is used.
+
+### **Insertion Sort Applications**
+---
+The insertion sort is used when:
+- the array is has a small number of elements
+- there are only a few elements left to be sorted

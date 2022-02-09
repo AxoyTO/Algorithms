@@ -44,31 +44,37 @@ end bubbleSort
 
 ### **Bubble Sort Complexity**
 ---
-| **Time Complexity**  |                                                                                                           |
-| -------------------- | :-------------------------------------------------------------------------------------------------------: |
-| Best                 |  <img src="https://render.githubusercontent.com/render/math?math=\O(\n)" style="background-color:white">  |
-| Worst                | <img src="https://render.githubusercontent.com/render/math?math=\O(\n^2)" style="background-color:white"> |
-| Average              | <img src="https://render.githubusercontent.com/render/math?math=\O(\n^2)" style="background-color:white"> |
-| **Space Complexity** |  <img src="https://render.githubusercontent.com/render/math?math=\O(1)" style="background-color:white">   |
-| **Stability**        |                                                    Yes                                                    |
+| **Time Complexity**  |        |
+| -------------------- | :----: |
+| Best                 |  O(n)  |
+| Worst                | O(n^2) |
+| Average              | O(n^2) |
+| **Space Complexity** |  O(1)  |
+| **Stability**        |  Yes   |
 
 
 ### **Time Complexities**
 ---
 
-**Worst Case Complexity:** <img src="https://render.githubusercontent.com/render/math?math=\O(\n^2)" style="background-color:white">
+**Worst Case Complexity: O(n^2)**
 
 If we want to sort in ascending order and the array is in descending order then the worst case occurs.
 
-**Best Case Complexity:** <img src="https://render.githubusercontent.com/render/math?math=\O(\n)" style="background-color:white">
+**Best Case Complexity: O(n)** 
 
 If the array is already sorted, then there is no need for sorting.
 
-**Average Case Complexity:** <img src="https://render.githubusercontent.com/render/math?math=\O(\n^2)" style="background-color:white">
+**Average Case Complexity: O(n^2)** 
 
 It occurs when the elements of the array are in jumbled order (neither ascending nor descending).
 
 ### **Space Complexity**
 ---
-Space complexity is O(1) because an extra variable is used for swapping.
-In the optimized bubble sort algorithm, two extra variables are used. Hence, the space complexity will be O(2).
+Space complexity is **O(1)** because an extra variable is used for swapping.
+In the optimized bubble sort algorithm, two extra variables are used. Hence, the space complexity will be **O(2)**.
+
+### **Bubble Sort Applications**
+---
+Bubble sort is used if
+- complexity does not matter
+- short and simple code is preferred
