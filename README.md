@@ -11,13 +11,13 @@ So why do we need so many algorithms to solve a specific problem or a calculatio
 **To determine the optimal algorithm in a group of algorithms, which tend to solve the same problem, we need to make analysis of their complexities, user-friendliness, modularity, security, thread-safety, maintainability etc.** Therefore, the purpose of this repository is to become more familiar with the analysis of some of the most popular algorithms and their implementations.
 
 
-To be implemented:
-- Dictionary
-- Analysis of algorithms (Asymptotic, Worst-average-best cases, Notations, Performance, Optimization, ...)
-- Implementation of algorithms (Searching, Sorting, Random, Loops, Divide-and-Conquer, ...)
-- Complex algorithms (Bit, Branch-and-bound, Graph, Geometric, Greedy algos)
+    To be implemented:
+    - Dictionary
+    - Analysis of algorithms (Asymptotic, Worst-average-best cases, Notations, Performance, Optimization, ...)
+    - Implementation of algorithms (Searching, Sorting, Random, Loops, Divide-and-Conquer, ...)
+    - Complex algorithms (Bit, Branch-and-bound, Graph, Geometric, Greedy algos)
 
 
-Contributions
+**Contributions**
 --------------
 Whether if it is a code(in any programming language), an informational paragraph or just a simple term or definition for the dictionary, every contribution is always welcome! Our task is to learn and to teach, so if you want to contribute, just fork the repository, make your change in the fork and open a pull request so that I can accept and merge it if it's eligible for it. Also, do not hesitate to correct mistakes if you meet them.
