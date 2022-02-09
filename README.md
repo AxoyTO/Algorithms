@@ -11,7 +11,7 @@ So why do we need so many algorithms to solve a specific problem or a calculatio
 **To determine the optimal algorithm in a group of algorithms, which tend to solve the same problem, we need to make analysis of their complexities, user-friendliness, modularity, security, thread-safety, maintainability etc.** Therefore, the purpose of this repository is to become more familiar with the analysis of some of the most popular algorithms and their implementations.
 
 
-    To be implemented:
+    To be added:
     - Dictionary
     - Analysis of algorithms (Asymptotic, Worst-average-best cases, Notations, Performance, Optimization, ...)
     - Implementation of algorithms (Searching, Sorting, Random, Loops, Divide-and-Conquer, ...)
