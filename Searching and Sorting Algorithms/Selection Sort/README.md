@@ -23,26 +23,26 @@ Compare `minimum` with the third element. Again, if the third element is smaller
     swap minimum with first unsorted position
     end selectionSort
 
-| **Time Complexity**  |                 |
-| - | - |
-| **Best** | O(n^2) 
-| **Worst** | O(n^2)
-| **Average** | O(n^2)
-| **Space Complexity** | O(1)
-| **Stability** | No
+| **Time Complexity**  |        |
+| -------------------- | ------ |
+| **Best**             | O(n^2) |
+| **Worst**            | O(n^2) |
+| **Average**          | O(n^2) |
+| **Space Complexity** | O(1)   |
+| **Stability**        | No     |
 
 **Time Complexities:**
 ---
 
-**Worst Case Complexity: O(n2)**
+**Worst Case Complexity: O(n^2)**
 
 If we want to sort in ascending order and the array is in descending order then, the worst case occurs.
 
-**Best Case Complexity: O(n2)**
+**Best Case Complexity: O(n^2)**
 
 It occurs when the array is already sorted
 
-**Average Case Complexity: O(n2)**
+**Average Case Complexity: O(n^2)**
 
 It occurs when the elements of the array are in jumbled order (neither ascending nor descending).
 The time complexity of the selection sort is the same in all cases. At every step, you have to find the minimum element and put it in the right place. The minimum element is not known until the end of the array is not reached.
@@ -59,4 +59,4 @@ The selection sort is used when
 - a small list is to be sorted
 - cost of swapping does not matter
 - checking of all the elements is compulsory
-- cost of writing to a memory matters like in flash memory (number of writes/swaps is **O(n)** as compared to **O(n2)** of bubble sort)
+- cost of writing to a memory matters like in flash memory (number of writes/swaps is **O(n)** as compared to **O(n^2)** of bubble sort)
