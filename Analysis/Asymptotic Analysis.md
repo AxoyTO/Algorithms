@@ -12,5 +12,19 @@ Let _A_ and _B_ algorithms working on the same task with different approaches. H
 For example, let's consider the search problem (searching a given item) in a sorted array. One way to search is _Linear Search_ (order of growth is linear) and the other way is _Binary Search_ (order of growth is logarithmic). To understand how Asymptotic Analysis solves the above mentioned problems in analyzing algorithms, let us say we run the Linear Search on a fast computer A and Binary Search on a slow computer B and we pick the constant values for the two computers so that it tells us exactly how long it takes for the given machine to perform the search in seconds. Let’s say the constant for A is 0.2 and the constant for B is 1000 which means that A is 5000 times more powerful than B. **For small values of input array size n, the fast computer may take less time. But, after a certain value of input array size, the Binary Search will definitely start taking less time compared to the Linear Search even though the Binary Search is being run on a slow machine. The reason is the order of growth of Binary Search with respect to input size is logarithmic while the order of growth of Linear Search is linear. So the machine dependent constants can always be ignored after a certain value of input size.**
 
 Here are some running times for this example:
+
 Linear Search running time in seconds on A(Fast Computer): <img src="https://render.githubusercontent.com/render/math?math=0.2*n" style="background-color:white">
+
 Binary Search running time in seconds on B(Slow Computer): <img src="https://render.githubusercontent.com/render/math?math=1000*\log(n)" style="background-color:white">
+
+
+For insertion sort, we calculate an an asymptotic estimate of **T(n) = n^2 + O(n)**. This estimate means that the complexity function doesn't increase faster than **n^2**. Regarding this, the insert sort has a squared complexity of ***O(n^2)***. This means that the complexity function of insertion sort is of the order of n^2.
+
+### **Definitions**
+---
+1) The notation <img src="https://render.githubusercontent.com/render/math?math=f(n) = \Theta(g(n))" style="background-color:white"> means that for any integer ***N***, there are constants ***c1*** and ***c2*** such that the equation <img src="https://render.githubusercontent.com/render/math?math=c_1 \mid{g(n)}\mid \leq \mid{f(n)}\mid \leq c_2 \mid{g(n)} \mid" style="background-color:white"> is always correct for every **n > N**
+
+2) The notation <img src="https://render.githubusercontent.com/render/math?math=f(n) = \Omega(g(n))" style="background-color:white"> means that for any integer N, there is a constant ***c1***, such that <img src="https://render.githubusercontent.com/render/math?math=\c_1\mid{g(n)}\mid \leq \mid{f(n)}\mid" style="background-color:white">
+
+3) There might be more than one estimate that is correct for a complexity function. The estimate of <img src="https://render.githubusercontent.com/render/math?math=f(n) = O(g(n))" style="background-color:white"> is called an ***exact estimate*** if <img src="https://render.githubusercontent.com/render/math?math=f(n) = o(g(n))" style="background-color:white"> is not correct.
+
