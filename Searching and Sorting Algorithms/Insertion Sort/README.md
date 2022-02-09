@@ -5,8 +5,11 @@ It works like just as if we were sorting cards in our hand in a card game. Assum
 A similar approach is used by insertion sort
 
 **Steps**:
+---
 **1.** The first element in the array is assumed to be sorted. Take the second element and store it separately in `key`. Compare this `key` with the first element. If the first element is greater than `key`, then `key` is placed in front of the first element.
+
 **2.** Now that the first two elements are sorted, take the third element and compare it with the elements on the left to it. Place it just behind the maximum of the elements smaller than it. If there is no such element, then place it at the beginning.
+
 **3.** Similarly repeat the steps for each unsorted element until the array becomes fully sorted.
 
 
