@@ -40,5 +40,7 @@ The notation <img src="https://render.githubusercontent.com/render/math?math=f(n
 
 The notation <img src="https://render.githubusercontent.com/render/math?math=f(n) = \Omega(g(n))" style="background-color:white"> means that for any integer N, there is a constant ***c1***, such that <img src="https://render.githubusercontent.com/render/math?math=\c_1\mid{g(n)}\mid \leq \mid{f(n)}\mid" style="background-color:white">
 
-1) There might be more than one estimate that is correct for a complexity function. The estimate of <img src="https://render.githubusercontent.com/render/math?math=f(n) = O(g(n))" style="background-color:white"> is called an ***exact estimate*** if <img src="https://render.githubusercontent.com/render/math?math=f(n) = o(g(n))" style="background-color:white"> is not correct.
+**4) Exact Estimate**
+
+ There might be more than one estimate that is correct for a complexity function. The estimate of <img src="https://render.githubusercontent.com/render/math?math=f(n) = O(g(n))" style="background-color:white"> is called an ***exact estimate*** if <img src="https://render.githubusercontent.com/render/math?math=f(n) = o(g(n))" style="background-color:white"> is not correct.
 
