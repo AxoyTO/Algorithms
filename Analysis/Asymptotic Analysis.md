@@ -22,9 +22,23 @@ For insertion sort, we calculate an an asymptotic estimate of **T(n) = n^2 + O(n
 
 ### **Definitions**
 ---
-1) The notation <img src="https://render.githubusercontent.com/render/math?math=f(n) = \Theta(g(n))" style="background-color:white"> means that for any integer ***N***, there are constants ***c1*** and ***c2*** such that the equation <img src="https://render.githubusercontent.com/render/math?math=c_1 \mid{g(n)}\mid \leq \mid{f(n)}\mid \leq c_2 \mid{g(n)} \mid" style="background-color:white"> is always correct for every **n > N**
 
-2) The notation <img src="https://render.githubusercontent.com/render/math?math=f(n) = \Omega(g(n))" style="background-color:white"> means that for any integer N, there is a constant ***c1***, such that <img src="https://render.githubusercontent.com/render/math?math=\c_1\mid{g(n)}\mid \leq \mid{f(n)}\mid" style="background-color:white">
+**1) Θ Notation**
 
-3) There might be more than one estimate that is correct for a complexity function. The estimate of <img src="https://render.githubusercontent.com/render/math?math=f(n) = O(g(n))" style="background-color:white"> is called an ***exact estimate*** if <img src="https://render.githubusercontent.com/render/math?math=f(n) = o(g(n))" style="background-color:white"> is not correct.
+    The theta notation bounds a function from above and below, so it defines exact asymptotic behavior. 
+ The notation <img src="https://render.githubusercontent.com/render/math?math=f(n) = \Theta(g(n))" style="background-color:white"> means that for any integer ***N***, there are constants ***c1*** and ***c2*** such that the equation <img src="https://render.githubusercontent.com/render/math?math=c_1 \mid{g(n)}\mid \leq \mid{f(n)}\mid \leq c_2 \mid{g(n)} \mid" style="background-color:white"> is always correct for every **n > N**
+
+**2) Big O Notation**
+
+    The Big O notation defines an upper bound of an algorithm, it bounds a function only from above.
+
+The notation <img src="https://render.githubusercontent.com/render/math?math=f(n) = O(g(n))" style="background-color:white"> means that for any integer N, there is a constant ***c1***, such that <img src="https://render.githubusercontent.com/render/math?math=0 \leq \mid{f(n)}\mid \leq \c_1\mid{g(n)}\mid " style="background-color:white">
+
+**3) Ω Notation**
+     
+     Just as Big O notation provides an asymptotic upper bound on a function, Ω notation provides an asymptotic lower bound.
+
+The notation <img src="https://render.githubusercontent.com/render/math?math=f(n) = \Omega(g(n))" style="background-color:white"> means that for any integer N, there is a constant ***c1***, such that <img src="https://render.githubusercontent.com/render/math?math=\c_1\mid{g(n)}\mid \leq \mid{f(n)}\mid" style="background-color:white">
+
+1) There might be more than one estimate that is correct for a complexity function. The estimate of <img src="https://render.githubusercontent.com/render/math?math=f(n) = O(g(n))" style="background-color:white"> is called an ***exact estimate*** if <img src="https://render.githubusercontent.com/render/math?math=f(n) = o(g(n))" style="background-color:white"> is not correct.
 
