@@ -1,4 +1,4 @@
-Bubble sort's main idea is to always compare two adjacent elements until they are not in the sorted order.
+**Bubble sort's main idea is to always compare two adjacent elements until they are not in the sorted order.**
 
 ### **Steps**
 ---
