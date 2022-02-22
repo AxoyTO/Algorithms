@@ -8,7 +8,6 @@ def binarySearch(array, x, low, high):
                 return binarySearch(array, x, low, mid-1)
             else:
                 return binarySearch(array, x, mid+1, high)
-        pass
 
     else:
         return -1
