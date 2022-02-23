@@ -19,7 +19,6 @@ def counting_sort(array):
     while i >= 0:
         output[count[array[i]] - 1] = array[i]
         count[array[i]] -= 1
-        #print(i, end=" --- ")
         i -= 1
 
     for i in range(len(output)):
