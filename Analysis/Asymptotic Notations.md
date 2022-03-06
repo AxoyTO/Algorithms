@@ -15,9 +15,9 @@ But, when the input array is in reverse condition, the algorithm takes the maxim
 When the input array is neither sorted nor in reverse order, then it takes average time. These durations are denoted using asymptotic notations.
 
 There are mainly three asymptotic notations:
-- Big-O Notation
-- Omega Notation
-- Theta Notation
+- Big-O Notation (Worst-Case)
+- Theta Notation (Average-Case)
+- Omega Notation (Best-Case)
 
 
 Big-O Notation (O-notation)
