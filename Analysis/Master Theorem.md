@@ -27,11 +27,11 @@ T(n) = aT(n/b) + f(n)
 
 where, T(n) has the following asymptotic bounds:
 
-    1. If f(n) = O(n^(log_b a-ϵ)), then T(n) = Θ(n^(log_b a)).
+    1. If f(n) = O(n^((log_b a)-ϵ)), then T(n) = Θ(n^(log_b a)).
 
     2. If f(n) = Θ(n^(log_b a)), then T(n) = Θ(n^(log_b a) * log n).
 
-    3. If f(n) = Ω(n^(log_b a+ϵ)), then T(n) = Θ(f(n)).
+    3. If f(n) = Ω(n^((log_b a)+ϵ)), then T(n) = Θ(f(n)).
 
 ϵ > 0 is a constant.
 ```
@@ -53,7 +53,7 @@ f(n) = n2
 
 logb a = log2 3 ≈ 1.58 < 2
 
-ie. f(n) < n^(log_b a+ϵ) , where, ϵ is a constant.
+ie. f(n) < n^((log_b a)+ϵ) , where, ϵ is a constant.
 
 Case 3 implies here.
 
