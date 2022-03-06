@@ -1,6 +1,8 @@
 > An algorithm is basically an approach, a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.
 
-So why do we need so many algorithms to solve a specific problem or a calculation? Because they mostly satisfy different use cases with different time complexities. Here are some examples for sorting algorithms:
+So why do we need so many algorithms to solve a specific problem or a calculation? Because they mostly satisfy different use cases with different time complexities.
+
+Here are some examples for sorting algorithms:
 - **`Merge Sort`** is useful for sorting linked lists.
 - **`Polyphase merge sort`** is useful if the sort set can't fit into RAM.
 - **`Heapsort`** is very good for sorting arrays and is used by many relational database engines for in-memory sorting, or for the memory part of the polyphase merge sort. It uses little extra RAM and is very predictable, which is the sort of behavior you want in a DB engine.
