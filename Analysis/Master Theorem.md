@@ -45,20 +45,59 @@ Each of the above conditions can be interpreted as:
 Solved Example of Master Theorem
 ---
 ```
-T(n) = 3T(n/2) + n2
-Here,
-a = 3
-n/b = n/2
-f(n) = n2
+T(n) = 9T(n/3) + n
 
-logb a = log2 3 ≈ 1.58 < 2
+a = 9, b = 3, f(n) = n
 
-ie. f(n) < n^((log_b a)+ϵ) , where, ϵ is a constant.
+logb a = log_3 9 = 2
 
-Case 3 implies here.
+ie. f(n) = n^((log_b a)-ϵ) , where, ϵ is a constant = 1. 
 
-Thus, T(n) = f(n) = Θ(n2) 
+-> Case 1 implies here.
+
+Thus, T(n) = f(n) = Θ(n^(log_b a)) = Θ(n^2) 
 ```
+
+Merge Sort Analysis with Master Theorem
+---
+```
+T(n) = 2T(n/2) + n
+
+a = 2, b = 2, f(n) = n
+log_b a = log_2 2 = 1
+
+i.e. f(n) = n = O(n)
+
+-> Case 2 implies here.
+
+Thus, T(n) = Θ(n*log(n)) 
+```
+
+Another example of Master Theorem
+---
+```
+T(n) = 3T(n/4) + nlogn
+
+a = 3, b = 4, f(n) = nlogn
+log_b a = log_4 3 ~ 0.8
+
+i.e. f(n) = nlogn = n^(0.8 + ϵ)
+
+-> Case 3 implies here.
+
+In this case, we should make a regularity condition control i.e. af(n/b) < cf(n) where n >= 0, c < 1, a >= 1 and b > 1.
+
+3f(n/4) < cf(n) --> 3*(n/4)*log(n/4) < c*n*logn --> c < 1 can be found. e.g. 1/2
+
+The regularity condition is achieved.
+
+Thus, f(n) = Ω(n^((log_b a)+ϵ)) = Ω(n^((log_4 3) + ϵ))
+
+T(n) = Θ(f(n)) = Θ(n(log(n)))
+
+
+```
+
 
 Master Theorem Limitations
 ---
