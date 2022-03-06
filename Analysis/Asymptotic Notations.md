@@ -24,4 +24,4 @@ Big-O Notation (O-notation)
 ---
 Big-O notation represents the upper bound of the running time of an algorithm. Thus, it gives the worst case complexity of an algorithm.
 
-[Assets/bigO.png]
+[Big-O](Assets/bigO.jpg)
