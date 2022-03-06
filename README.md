@@ -15,8 +15,8 @@ Here are some examples for sorting algorithms:
 
     To be added:
     - Dictionary
-    - Analysis of algorithms (Asymptotic, Worst-average-best cases, Notations, Performance, Optimization, ...)
-    - Implementation of algorithms (Searching, Sorting, Random, Loops, Divide-and-Conquer, ...)
+    - Analysis of algorithms (Performance, Optimization, Amortized Analysis, Classes, Recurrence Solution Methods...)
+    - Implementation of algorithms (~Searching, ~Sorting, Random, Loops, Divide-and-Conquer...)
     - Complex algorithms (Bit, Branch-and-bound, Graph, Geometric, Greedy algos)
 
 
