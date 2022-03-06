@@ -14,7 +14,9 @@ Steps of Divide and Conquer algorithms
 
 **3. Combine:** Combine the solutions of the sub-problems that are part of the recursive process to solve the actual problem.
 
-Merge Sort and Binary Search are some simple examples of Divide and Conquer algorithms.
+<img src="/Assets/divide_and_conquer.png" alt="Divide and Conquer" width="75%">
+
+Merge Sort and Binary Search* are some simple examples of Divide and Conquer algorithms.
 
 Time Complexity
 ---
