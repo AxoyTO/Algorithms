@@ -18,7 +18,7 @@ Merge Sort and Binary Search are some simple examples of Divide and Conquer algo
 
 Time Complexity
 ---
-The complexity of an DaC algorithm is calculated using the master theorem. i.e.
+The complexity of an DaC algorithm is calculated using the [master theorem](https://github.com/AxoyTO/Algorithms/blob/master/Analysis/Master%20Theorem.md). i.e.
 ```
 T(n) = a*T(n/b) + f(n),
 
@@ -49,17 +49,17 @@ fib(n):
 Dynamic approach:
 ---
 ```
-mem = []
+memory = []
 fib(n):
     if n in mem:
-        return mem[n]
+        return memory[n]
     else:
         f = f(n - 1) + f(n - 2)
-        mem[n] = f
+        memory[n] = f
         return f
 ```
 
-As we can see here, in dynamic approach, `mem` stores the result of each subproblem for a future use.
+As we can see here, in dynamic approach, sequential storage structure `memory` stores the result of each subproblem for a future use.
 
 Advantages of Divide and Conquer algorithm
 ---
@@ -70,9 +70,9 @@ Advantages of Divide and Conquer algorithm
 
 Divide and Conquer Applications
 ---
-- Binary Search (*Some believe that this is rather a Decrease and Conquer algorithm than a Divide and Conquer*)
-- Merge Sort
-- Quick Sort
+- [Binary Search](https://github.com/AxoyTO/Algorithms/tree/master/Searching%20and%20Sorting%20Algorithms/Binary%20Search) (*Some believe that this is rather a Decrease and Conquer algorithm than a Divide and Conquer*)
+- [Merge Sort](https://github.com/AxoyTO/Algorithms/tree/master/Searching%20and%20Sorting%20Algorithms/Merge%20Sort)
+- [Quick Sort](https://github.com/AxoyTO/Algorithms/tree/master/Searching%20and%20Sorting%20Algorithms/Quick%20Sort)
 - Strassen's Matrix multiplication
 - Karatsuba Algorithm for fast multiplication
 - Closest pair of points in a point set.
